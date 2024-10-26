@@ -1,0 +1,20 @@
+:host {
+    display: inline-flex;
+}
+
+.size {
+    &_s {
+        width: 16px;
+        height: 16px;
+    }
+
+    &_m {
+        width: 24px;
+        height: 24px;
+    }
+
+    &_l {
+        width: 48px;
+        height: 48px;
+    }
+}

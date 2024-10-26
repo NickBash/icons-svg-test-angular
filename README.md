@@ -1,0 +1,1 @@
+#Testing correct work with svg icons in Angular 16 and above

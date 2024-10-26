@@ -1,0 +1,24 @@
+<h1>HELLO, test of correct use of icons</h1>
+
+<h2>test color variable css</h2>
+
+<!-- default color -->
+<app-icon iconName="icon-one"></app-icon>
+<!-- set custom color -->
+<app-icon iconName="icon-one" class="test-one"></app-icon>
+
+<h2>test size classes</h2>
+
+<app-icon iconName="icon-two" size="s"></app-icon>
+
+<app-icon iconName="icon-two"></app-icon>
+
+<app-icon iconName="icon-two" size="l"></app-icon>
+
+<h2>test problem iconName</h2>
+
+<app-icon iconName="lalala"></app-icon>
+
+<h2>test changed iconName</h2>
+
+<app-icon [iconName]="changeName()"></app-icon>
